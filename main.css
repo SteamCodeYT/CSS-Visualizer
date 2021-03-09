@@ -1,0 +1,50 @@
+body{
+    background-color: #55407754;
+}
+
+.shape{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.slideContainer{
+    width: 85%;
+    height: 100%;
+    clear: both;
+    text-align: center;
+    margin: auto;
+}
+
+.slideContainer h1{
+    display: inline-block;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 60px;
+    color: gray;
+}
+
+.slider{
+    width: 100%;
+    clear: both;
+    -webkit-appearance: none;
+    height: 25px;
+    background: rgba(74, 40, 75, 0.788);
+    outline: none;
+    border-radius: 25px;
+    opacity: 0.7;
+}
+
+.slider:hover{
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    background: #8858d4;
+    cursor: pointer;
+    border-radius: 50%;
+}
